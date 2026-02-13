@@ -1,0 +1,114 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Question 4"
+      ],
+      "metadata": {
+        "id": "cIAmN3U6xwam"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=input(\"guess a number?\")\n",
+        "y=input(\"guess another number?\")\n",
+        "x=int(x)\n",
+        "y=int(y)\n",
+        "Add=x+y\n",
+        "Subtract=x-y\n",
+        "Multiplication=x*y\n",
+        "Division=x/y\n",
+        "print(f\"{x}+{y}={Add}\")\n",
+        "print(f\"{x}-{y}={Subtract}\")\n",
+        "print(f\"{x}*{y}={Multiplication}\")\n",
+        "print(f\"{x}÷{y}={Division}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "K4mb4nG1yAFy",
+        "outputId": "30fe2562-7904-4435-ebd1-d5d78bd1cc11"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "<>:12: SyntaxWarning: invalid escape sequence '\\{'\n",
+            "<>:12: SyntaxWarning: invalid escape sequence '\\{'\n",
+            "/tmp/ipython-input-92589684.py:12: SyntaxWarning: invalid escape sequence '\\{'\n",
+            "  print(f\"{x}\\{y}={Division}\")\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "guess a number?3\n",
+            "guess another number?4\n",
+            "3+4=7\n",
+            "3-4=-1\n",
+            "3*4=12\n",
+            "3\\4=0.75\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Question 5"
+      ],
+      "metadata": {
+        "id": "X9_ppB9l2F_M"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=input(\"what is your name?\")\n",
+        "y=input(\"How old are you?\")\n",
+        "s=input(\"what course do you do?\")\n",
+        "print(f\"what is your {y} {x} and {s}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IFarfjlB2JHt",
+        "outputId": "17c8165f-0640-4a9c-c20b-e1949be78f7f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "what is your name?Ann\n",
+            "How old are you?23\n",
+            "what course do you do?AI\n",
+            "what is your 23 Ann and AI\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
